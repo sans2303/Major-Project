@@ -78,6 +78,6 @@ def predict():
     # else:
     #     return render_template('error.html')    # Render error page
 
-if __name__ == '__main__':
-    app.run()
+#if __name__ == '__main__':
+#    app.run()
     
