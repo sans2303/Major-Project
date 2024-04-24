@@ -6,5 +6,9 @@
       "dest": "/app.py"
     }
   ],
-  "functions": { "api": { "runtime": "python 3.9.0" } }
+  "functions": { 
+    "api": { 
+      "runtime": "python3.9" 
+    } 
+  }
 }
