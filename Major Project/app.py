@@ -79,5 +79,5 @@ def predict():
     #     return render_template('error.html')    # Render error page
 
 if __name__ == '__main__':
-    app.run(debug=False)
+    app.run()
     
