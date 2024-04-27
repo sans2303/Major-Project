@@ -27,26 +27,7 @@ def predict_defect(image_path):
 
     return prediction
 
-# def send_complaint(image_path, prediction, latitude, longitude):
-#     # Dummy URL for government website
-#     government_url = 'http://127.0.0.1:5000/'
 
-#     # Prepare complaint data
-#     complaint_data = {
-#         'image': open(image_path, 'rb'),
-#         'prediction': prediction,
-#         'latitude': latitude,
-#         'longitude': longitude
-#     }
-
-#     # Send POST request to government website
-#     response = requests.post(government_url, files=complaint_data)
-
-#     # Check if request was successful
-#     if response.status_code == 200:
-#         return True
-#     else:
-#         return False
 
 @app.route('/')
 def home():
@@ -70,14 +51,6 @@ def predict():
     latitude = request.form.get('latitude')
     longitude = request.form.get('longitude')
     
-
-    # success = send_complaint(image_path, prediction, latitude, longitude)
-
-    # if success:
-    #     return render_template('success.html')  # Render success page
-    # else:
-    #     return render_template('error.html')    # Render error page
-
-#if __name__ == '__main__':
-#    app.run()
+if __name__ == '__main__':
+    app.run(debug=True)
     
