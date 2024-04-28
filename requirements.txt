@@ -1,5 +1,5 @@
 Flask==2.1.0              # Web framework for building the application
-ultralytics==1.0.0        # YOLOv5 object detection library
+ultralytics       # YOLOv5 object detection library
 Pillow==8.4.0             # Python Imaging Library for image processing
 requests==2.26.0          # Library for making HTTP requests
 flask-ngrok==0.0.25       # Ngrok integration for exposing Flask app to the internet
