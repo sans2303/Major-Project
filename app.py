@@ -8,6 +8,7 @@ from flask_ngrok import run_with_ngrok
 from fpdf import FPDF
 import base64
 import io
+from urllib.parse import quote
 
 app = Flask(__name__)
 #run_with_ngrok(app)
