@@ -5,3 +5,4 @@ requests==2.26.0          # Library for making HTTP requests
 flask-ngrok==0.0.25       # Ngrok integration for exposing Flask app to the internet
 fpdf==1.7.2  
 gunicorn
+Werkzeug>=2.2,<3.0
